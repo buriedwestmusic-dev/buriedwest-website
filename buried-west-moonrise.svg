@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180">
+<defs><radialGradient id="moon" cx="36%" cy="30%"><stop stop-color="#e0a182"/><stop offset=".55" stop-color="#b95f48"/><stop offset="1" stop-color="#663337"/></radialGradient></defs>
+<circle cx="144" cy="74" r="65" fill="url(#moon)"/>
+<g fill="#54292b" opacity=".22"><ellipse cx="155" cy="82" rx="19" ry="15"/><ellipse cx="117" cy="52" rx="13" ry="10"/><ellipse cx="153" cy="36" rx="10" ry="7"/></g>
+<path fill="#5d4743" d="M0 136l31-22 15 10 28-29 31 30 29-48 34 41 29-19 43 34v34H0z"/>
+<path fill="#353736" d="M0 143l29-13 31 30 41-38 33 37 41-40 41 36 24-24v39H0z"/>
+<path fill="#171c1b" d="M0 151l38 22 39-17 31 20 40-26 32 15 31-11 29 18v8H0z"/>
+</svg>

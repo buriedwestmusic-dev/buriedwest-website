@@ -31,3 +31,14 @@
   .site-header nav{flex-wrap:wrap;justify-content:flex-end;column-gap:9px;row-gap:8px}
 }
 @media(max-width:350px){.site-header{padding-inline:12px}}
+
+.merch-heading{margin-block:clamp(35px,5vw,65px) 18px}
+.merch-heading h3{font-size:clamp(1.65rem,4vw,3rem);line-height:1.05;margin:0 0 8px}
+.merch-heading p{color:#c3afa0;margin:0;line-height:1.5}
+.merch-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.merch-art{background:radial-gradient(ellipse at 52% 30%,#51372e,#29231f 60%,#201d19)}
+.merch-art img{display:block;width:100%;height:auto}
+.merch-grid h4{font-size:clamp(1.15rem,2vw,1.6rem);margin:0 0 8px}
+.merch-grid .shop-copy p{margin:0}
+@media(max-width:740px){.merch-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+@media(max-width:470px){.merch-grid{grid-template-columns:1fr}}
