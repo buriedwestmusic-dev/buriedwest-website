@@ -19,11 +19,10 @@
 .booking-section{display:grid;grid-template-columns:1fr 1fr;gap:24px;border-top:1px solid #ffffff22;background:#211915;align-items:center}
 .booking-section h2{font-size:clamp(2.5rem,5vw,5rem)}
 .booking-section h2 em{display:block;color:#ec9b7c}
-.booking-email{background:none;color:#e9e5d9;border:1px solid #e9e5d963;padding:12px 14px;min-height:46px;font:inherit;font-size:.9rem;text-align:center}
-.booking-email:disabled{cursor:default}
+.booking-email{display:inline-flex;align-items:center;justify-content:center;background:none;color:#e9e5d9;border:1px solid #e9e5d963;padding:12px 14px;min-height:46px;font:inherit;font-size:.9rem;text-align:center}
 .booking-primary{background:#eaa186;color:#201511;border-color:#eaa186;font-weight:700;width:100%;margin-bottom:10px}
 .booking-secondary{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
-.booking-secondary button{flex:1 1 auto}
+.booking-secondary .booking-email{flex:1 1 auto}
 @media(max-width:740px){
   .shop-grid{grid-template-columns:1fr;gap:12px}
   .shop-feature{grid-column:1/-1}
