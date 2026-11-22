@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout | Buried West</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://js.stripe.com/endive/stripe.js" defer></script>
+  <script src="/checkout.js" defer></script>
+</head>
+<body>
+  <main class="section">
+    <a class="underlined-link" href="/#shop">← Back to shop</a>
+    <h2>Checkout</h2>
+    <p>Stripe test mode. Use a Stripe test card. No merchandise will ship.</p>
+    <form id="checkout-form">
+      <label for="hoodie-size">Moonrise Hoodie size</label>
+      <select id="hoodie-size" name="size" required>
+        <option value="">Choose size</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+        <option>2XL</option>
+      </select>
+      <button class="store-button">Continue to test payment</button>
+    </form>
+    <p id="checkout-status" role="status"></p>
+    <div id="checkout"></div>
+  </main>
+</body>
+</html>
